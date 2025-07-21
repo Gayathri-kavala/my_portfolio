@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K Gayathri | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header>
+        <div class="logo">K Gayathri</div>
+        <nav>
+            <ul id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" onclick="toggleMenu()"><i class="fas fa-bars"></i></div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hello,<br> I'm <span>K Gayathri</span></h1>
+            <h2>Computer Science Engineering Student</h2>
+            <div class="buttons">
+                <a href="#projects" class="btn-primary">Got a project?</a>
+                <a href="resume.pdf" target="_blank" class="btn-secondary">My Resume</a>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="profile.jpg" alt="K Gayathri">
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="skills">
+        <h2>Technical Skills</h2>
+        <div class="skill-tags">
+            <span>HTML5</span>
+            <span>CSS</span>
+            <span>PHP</span>
+            <span>Python</span>
+            <span>Git</span>
+            <span>GitHub</span>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+            Motivated and detail-oriented CSE student with a passion for web development, AI, and software engineering.
+            Skilled in Python, PHP, and modern web technologies. Eager to enchance my skills through hands-on experence.
+        <p>
+<div class="stats">
+            <div><strong>4+</strong><br>Academic Projects</div>
+            <div><strong>2+</strong><br>Years of Learning</div>
+            <div><strong>95%</strong><br>Client Satisfaction</div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+
+            <div class="project-card">
+                <h3>Farmer Marketplace Website</h3>
+                <p><strong>Tech:</strong> PHP, HTML, CSS, XAMPP</p>
+                <p>Developed an online platform enabling farmers to sell produce directly to consumers without middlemen.</p>
+                <ul>
+                    <li>Farmer registration and login system</li>
+                    <li>Product listing and categorization</li>
+                    <li>Admin panel for managing users and products</li>
+                </ul>
+                <p><em>Impact:</em> Empowered rural communities, increased profits for farmers, and ensured fresh products for consumers.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>AI-Based Travel Planner</h3>
+                <p><strong>Tech:</strong> Python, Tkinter, PIL</p>
+                <p>Interactive desktop application to plan, manage, and track itineraries efficiently.</p>
+                <ul>
+                    <li>Create, update, view, and delete travel plans</li>
+                    <li>Real-time feedback with pop-up alerts</li>
+                    <li>Integrated date and time management</li>
+                </ul>
+            </div>
+
+            <div class="project-card">
+                <h3>Recyclable Finder</h3>
+                <p><strong>Tech:</strong> Python, Machine Learning</p>
+                <p>A smart solution that helps users identify recyclable materials based on input and ML predictions.</p>
+                <ul>
+                    <li>Classifies waste into categories: plastic, glass, metal, electronics</li>
+                    <li>Educates users on recycling practices</li>
+                </ul>
+            </div>
+
+            <div class="project-card">
+                <h3>JobPrep GPT</h3>
+                <p><strong>Tech:</strong> Python, Streamlit, OpenRouter (LLMs)</p>
+                <p>AI-powered resume analysis and job preparation tool that provides skill gap analysis and mock interviews.</p>
+                <ul>
+                    <li>Resume parsing with PyMuPDF</li>
+                    <li>Job recommendations and AI-based analysis</li>
+                    <li>Mock interview generator</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>B.E. in Computer Science</strong> – Ballari Institute of Technology & Management (2026) | CGPA: 8.06</li>
+            <li><strong>12th</strong> – Sri Vidyaniketan PU College (2022) | 82%</li>
+            <li><strong>10th</strong> – Sri Vidyaniketan Public School (2020) | 72%</li>
+        </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:gayathrikavala0@gmail.com">gayathrikavala0@gmail.com</a></p>
+        <p>Phone: +91 8660555672</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 K Gayathri. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>         
